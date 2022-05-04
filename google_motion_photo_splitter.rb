@@ -2,6 +2,7 @@
 
 # Android motion photo file splitter --
 # saves the raw JPG image and MP4 video to separate files
+# Converted to Ruby from https://android.stackexchange.com/a/203898
 
 unless (file_with_path = ARGV.first)
     puts "Pass a path to a file, please"
